@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="author" content="Matthías Máni Þorsteinsson">
+    <title>Verkefni 7.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,200;0,400;0,600;0,800;1,200;1,400;1,600;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="icon" type="image/svg" href="images/Mario_emblem.svg">
+</head>
+<body>
+  <nav class="topnav">
+    <input type="checkbox" id="toggle">
+    <label for="toggle"> &#9776; </label>
+    <div class="topmenu">
+      <a href="#Table"><span class="icon-location2"></span> Where</a>
+      <a href="#Table"><span class="icon-alarm"></span> When</a>
+      <a href="#Form"><span class="icon-qrcode"></span> Buy Tickets</a>
+      <a href="#login"><span class="icon-user"></span> Login</a>
+      <div class="socialbutts">
+        <a href="https://www.youtube.com/@mattpatt4976"><span class="icon-youtube"></span> </a>
+        <a href="https://steamcommunity.com/id/j8PxqgliIno/"><span class="icon-steam2"></span> </a>
+        <a href="https://github.com/MattPattYT"><span class="icon-github"></span> </a>
+        <a href="https://www.facebook.com/profile.php?id=100071574348757"><span class="icon-facebook2"></span> </a>
+      </div>
+    </div>
+    </section>
+  </nav>
+  <header>  
+      <section>
+        <h1>
+          Experience the world of Super Mario™
+        </h1>
+        </section>
+      <section class="zoomIn">
+        <img src="images/Nintendo_World_Logo.png">
+      </section> 
+  </header>
+  <!--banner-->
+  <div class="bannerBg">
+    <section class="col-3 container">
+      <div class="value">
+        <h1>8/10</h1>
+        <h3>"Immersive and playful video game themed theme park"</h3>
+        <p>IGN</p>
+      </div>
+      <div class="value">
+        <h1>90%</h1>
+        <h3>"Fun for the whole family, lots of things to do"</h3>
+        <p>Metacritic</p>
+      </div>
+      <div class="value">
+        <h1>4.5/5</h1>
+        <h3>"A park that is both a great theme park and video game"</h3>
+        <p>TheGamer</p>
+      </div>
+    </section>
+    <section class="container">
+        <table id="Table">
+          <caption>Our schedule</caption>
+          <thead>
+              <tr>
+                  <th> Location</th>
+                  <th> Opening Times</th>
+                  <th> Date </th>
+                  <th> Buy Tickets</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                <td data-label="Location">SUPER NINTENDO WORLD™ in Universal Studios Hollywood</td>
+                <td data-label="Opening Times">9 am-6 pm</td>
+                <td data-label="Date ">06. 12. 2025</td>
+                <td data-label="Buy Tickets"><a href="#Form"><button class="shakeX">Order now</button></a></td> 
+              </tr>
+              <tr>
+                <td data-label="Location">SUPER NINTENDO WORLD™ in Universal Studios Hollywood</td>
+                <td data-label="Opening Times">9 am-6 pm</td>
+                <td data-label="Date ">06. 13. 2025</td>
+                <td data-label="Buy Tickets"><a href="#Form"><button class="shakeX">Order now</button></a></td>               
+              </tr>
+              <tr>
+                <td data-label="Location">SUPER NINTENDO WORLD™ in Universal Studios Hollywood</td>
+                <td data-label="Opening Times">9 am-6 pm</td>
+                <td data-label="Date ">06. 14. 2025</td>
+                <td data-label="Buy Tickets"><a href="#Form"><button class="shakeX">Order now</button></a></td>               
+              </tr>
+              <tr>
+                <td data-label="Location">SUPER NINTENDO WORLD™ in Universal Studios Hollywood</td>
+                <td data-label="Opening Times">9 am-6 pm</td>
+                <td data-label="Date ">06. 15. 2025</td>
+                <td data-label="Buy Tickets"><a href="#Form"><button class="shakeX">Order now</button></a></td>               
+              </tr>
+              <tr>
+                <td data-label="Location">SUPER NINTENDO WORLD™ in Universal Studios Hollywood</td>
+                <td data-label="Opening Times">9 am-6 pm</td>
+                <td data-label="Date ">06. 16. 2025</td>
+                <td data-label="Buy Tickets"><a href="#Form"><button class="shakeX">Order now</button></a></td>              
+              </tr>
+          </tbody>
+          <tfoot>
+              <tr>
+                  <th colspan="4">Tickets are limited</th>
+              </tr>
+          </tfoot>
+        </table>
+    </section>
+  </div><!--green bg ends-->
+  <div class="slides" id="slideset2">
+    <div>
+      <br>
+      <h1>Rides</h1>
+      <p>There are lots of rides
+    </div>
+    <div>
+      <br>
+      <h1>Games</h1>
+      <p>There are lots of Games
+      <h6>Power-Up Band™ required, bought seperately</h6>
+    </div>
+    <div>
+      <br>
+      <h1>Food</h1>
+      <p>Hungry? stop by the café!
+    </div>
+    <div>
+      <br>
+      <h1>Merchandise</h1>
+      <p>There's a merch store at the park
+    </div>
+  </div>
+  <main class="container">
+    <section class="col-2">
+      <article>
+        <h1>Discover the world of Super Mario™!</h1>
+        <p>Step right into familiar locations and environments from the Mushroom Kingdom. Explore, discover, and play amazing interactive games and Key Challenges throughout the land.
+        <h1>Meet Mario and friends face-to-face.</h1>
+        <p>Get ready to meet Mario, Luigi, Princess Peach and Toad. Make sure to capture the moment. Snap a photo with them and if you’re wearing your Power-Up Band™, you may get an enhanced experience. 
+      </article>
+      <section id="slideset6">
+        <section>
+          <img src="images/image-1.png">
+        </section>
+        <section>
+          <img src="images/image-2.png">
+        </section>
+        <section>
+          <img src="images/image-3.png">
+        </section>
+        <section>
+          <img src="images/image-4.png">
+        </section>
+      </section>
+    </section>
+    <section class="col-2">
+      <div><!--details-->
+        <section>
+          <h1>Dining and Shopping</h1>
+          <p>At SUPER NINTENDO WORLD™, the food is as fun as the play. Plus, you’ll find toys and apparel so you can take a piece of the adventure home with you.
+        </section>
+        <section>
+          <h4>Toadstool Cafe™</h4>
+          <p>Indulge in tasty dishes at Toadstool Cafe™, where you can enjoy Chef Toad’s favorite recipes offered in the Mushroom Kingdom. Gluten-free and vegetarian options are available.
+        </section>
+        <section>
+          <h4>1-UP Factory™</h4>
+          <p>Find the perfect souvenir at the 1-UP Factory™ store. This super-fun store is where you can find all sorts of items from the Mushroom Kingdom! Browse souvenirs and wearable merch to level up your experience.
+        </section>
+        <section>
+          <h1>There's Even More Nintendo-Themed Dining & Shopping Outside SUPER NINTENDO WORLD™</h1>
+          <p>With great items available right now in Universal Studios Hollywood and Universal CityWalk, you can get in on the fun even before you enter the land.
+        </section>
+      </div>
+      <div id="Form"><!--Form-->
+        <form method="get" action="takk.html" class="order">
+          <fieldset>
+            <legend>Order</legend>
+            <section class="col-2">
+              <p>
+                <label>First Name</label> 
+                <input type="text" name="first_name" required placeholder="First name">
+            </p>
+            <p>
+                <label>Last Name</label> 
+                <input type="text" name="last_name" required placeholder="last name">
+            </p>
+            </section>
+            <p>
+                <label>Pronouns: </label>
+                <label> He/Him
+                    <input type="radio" name="gender" value="Male">
+                </label>   |
+                
+                <label> She/Her
+                    <input type="radio" name="gender" value="Female">
+                </label>   |
+              
+                <label> They/Them // Other
+                    <input type="radio" name="gender" value="other-none-na">
+                </label>
+            </p>
+            <section class="col-2">
+            <p>
+                  <label>Email</label><br>
+                  <input type="email" name="email" required placeholder="Email">
+              </p>
+              <p>
+                  <label>Phone Number</label><br>
+                  <input type="tel" name="phonenumber" 
+                    placeholder="7 digits only"
+                    pattern="\d{3}(?:[\-\s]?)\d{4}"><!--Regular Expressions-->
+              </p>
+            </section>
+            <section class="col-3">
+              <p>
+                <label>Country</label><br>
+                <select>
+                    <option>China</option>
+                    <option>India</option>
+                    <option>United States</option>
+                    <option>Indonesia</option>
+                    <option>Brazil</option>
+                </select>
+            </p>
+              <p>
+                <label>Date</label><br>
+                <input type="date" name="Date">
+              </p>
+              <p>
+                <label>Time</label><br>
+                <input type="time" name="Time">
+              </p>
+            </section>
+            <p>
+                <label>
+                    <input type="checkbox" value="termsX">
+                    Send me updates via email <br>
+                </label>
+                <label>
+                    <input type="checkbox" value="termsY">
+                    Send news via email
+                </label>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="Log In" class="shakeY">
+            </p>
+          </fieldset>
+      </form>
+      </div>
+    </section>
+  </main>
+  <footer class="col-2 container">
+    <nav>
+      <p>Info:</p>
+      <ul class="downlist">
+        <li>© 2025 Universal Studios. All rights reserved.</li>
+        <li>Some imagery shown throughout our website does not represent current operational and safety guidelines.</li>
+      </ul>
+    </nav>
+    <dl>              <!--Description list -->
+      <dt>Nafn</dt>
+        <dd>Matthías Máni Þorsteinsson</dd>
+      <dt>Tölvupóstur</dt>
+        <dd>matthiastho24@tskoli.is</dd>
+      <dt>Vefhönnun</dt>
+        <dd>VEFÞ2VHB5AU, tölvubraut Tækniskólans</dd>
+    </dl>
+  </footer>
+    <p class="center">&copy MMÞ. 2 spönn, vor 2025.</p>
+  <!--pop up login form-->
+  <div id="login" class="overlay">
+    <div class="popup">
+        <h2>Universal Account</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+            <form action="takk.html" method="get">
+              <fieldset>
+                <legend>Login</legend>
+                <p>Username: <input type="text" name="user" required placeholder="User"></p>
+                <p>Password: <input type="password" name="psw" required placeholder="Password"></p>
+                <p><input type="submit" value="Log In"></p>
+              </fieldset>
+            </form>
+        </div>
+    </div>
+  </div>
+  <!--Spjallbox-->
+  <label for="inputcheck" class="chatbutt"><span class="icon-bubbles2"></span>  </label>
+  <input type="checkbox" id="inputcheck">
+  <section class="chatbox">
+    <form action="takk.html" method="get"> 
+      <fieldset> 
+        <legend>&nbsp;Contact Us&nbsp;</legend><!--ath-->
+        <label>Name:</label>
+        <input type="text" placeholder="Name" name="Nafn" required>
+        <br><label>Email:</label>
+        <input type="email" name="TP" placeholder="Email" required>
+        <br><label>Message:</label>
+        <textarea rows='5' name="skilaboð" placeholder="Message" required></textarea>
+        <p><input type="submit" value="Send" class="button-primary"></p>
+      </fieldset>
+      </form>
+  </section>
+</body>
+</html>
