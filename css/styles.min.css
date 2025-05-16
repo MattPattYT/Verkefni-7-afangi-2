@@ -188,11 +188,11 @@ from{opacity:0;transform:scale3d(.3,.3,.3)}
 #slideset6>:nth-child(2){animation-delay:5s}
 #slideset6>:nth-child(3){animation-delay:10s}
 #slideset6>:nth-child(4){animation-delay:15s}
-@media screen and (max-width:45rem){
-#slideset6{height:24rem}
+@media screen and (max-width:35rem){
+#slideset6{height:15rem}
 }
-@media screen and (min-width:45rem){
-#slideset6{height:24rem}
+@media screen and (min-width:35rem){
+#slideset6{height:23rem}
 }
 .bannerBg{background-color:var(--green-bg);padding-bottom:2rem}
 .logo{font-size:5rem}
